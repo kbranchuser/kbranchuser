@@ -6,6 +6,7 @@
 
 ![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?logo=googlecloud&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-FF9900)
+![Terraform](https://img.shields.io/badge/Terraform-844FBA?logo=terraform&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
@@ -31,16 +32,32 @@ I'm a Senior Cloud Engineer at a Premier Google Cloud partner. Companies hand me
 ![Certified Partner Specialist: Gemini Enterprise Deployment](https://img.shields.io/badge/Google_Cloud-Certified_Partner_Specialist:_Gemini_Enterprise_Deployment-8E75FF?style=for-the-badge&logo=googlegemini&logoColor=white)
 ![Certified Partner Specialist: Gemini Enterprise Agent Development](https://img.shields.io/badge/Google_Cloud-Certified_Partner_Specialist:_Gemini_Enterprise_Agent_Development-8E75FF?style=for-the-badge&logo=googlegemini&logoColor=white)
 
-## 🚀 Cloud in practice
+## 🚀 Things I've built
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>Archaeohub, a full app on AWS</h3>
-      <p>A full web app I run end to end: containers on EC2, Cognito for sign-in with a Lambda check, S3 for storage, Bedrock and Rekognition for the AI features, and a GitHub Actions pipeline that deploys on every push.</p>
-      <a href="https://archaeohub.org"><img src="https://img.shields.io/badge/archaeohub.org-live-FF9900" alt="archaeohub.org" /></a>
+      <a href="https://manufind.org"><img src="assets/card-manufind.svg" width="100%" alt="ManuFind logo" /></a>
+      <h3>ManuFind</h3>
+      <p>An AI document intelligence platform. It turns contracts, drawings, reports and specs into a knowledge engine you can search and ask questions. Multi-tenant SaaS on AWS, built with Terraform and shared CI pipelines.</p>
+      <a href="https://manufind.org"><img src="https://img.shields.io/badge/manufind.org-visit-E87722" alt="Visit manufind.org" /></a>
     </td>
     <td width="50%" valign="top">
+      <a href="https://apps.apple.com/us/app/the-flush-finder/id6756533350"><img src="assets/card-flushfinder.svg" width="100%" alt="The Flush Finder logo" /></a>
+      <h3>The Flush Finder</h3>
+      <p>A mobile app for finding, reviewing and rating public restrooms. Because everyone has needed one in a hurry. React Native app with a Django and PostgreSQL backend.</p>
+      <a href="https://apps.apple.com/us/app/the-flush-finder/id6756533350"><img src="https://img.shields.io/badge/App_Store-download-0D96F6?logo=appstore&logoColor=white" alt="Download on the App Store" /></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="assets/card-legacy-fc-scout.svg" width="100%" alt="Legacy FC Scout" />
+      <h3>Legacy FC Scout</h3>
+      <p>An analytics app for an EA Pro Clubs soccer team. It pulls match stats, tags video clips and reports through a Discord bot. FastAPI and Electron, with AWS AI services (Bedrock, Rekognition, SageMaker) doing the heavy lifting.</p>
+      <img src="https://img.shields.io/badge/repo-private-6e7781" alt="Private repo" />
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/kbranchuser/archaeohub-ga-mound-detector"><img src="assets/card-mound-detector.svg" width="100%" alt="GA Mound Detector" /></a>
       <h3>GA Mound Detector</h3>
       <p>A deep learning model that reads public USGS LiDAR and flags likely earthen mounds. Open source, with trained weights in the release.</p>
       <a href="https://github.com/kbranchuser/archaeohub-ga-mound-detector"><img src="https://img.shields.io/badge/GitHub-repo-181717?logo=github" alt="GitHub repo" /></a>

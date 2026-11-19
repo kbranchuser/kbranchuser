@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 315" width="600" height="315" role="img" aria-label="Legacy FC Scout, a ball moving between players on a pitch next to stat bars">
+  <defs>
+    <clipPath id="c"><rect width="600" height="315" rx="16"/></clipPath>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b3d24"/><stop offset="1" stop-color="#14673a"/></linearGradient>
+  </defs>
+  <style>
+    .ball { animation: pass 6s ease-in-out infinite; }
+    @keyframes pass {
+      0%, 6% { transform: translate(92px, 150px); }
+      26%, 32% { transform: translate(214px, 72px); }
+      52%, 58% { transform: translate(322px, 170px); }
+      78%, 84% { transform: translate(214px, 72px); }
+      100% { transform: translate(92px, 150px); }
+    }
+    .dash { stroke-dasharray: 6 8; animation: dash 1.6s linear infinite; }
+    @keyframes dash { to { stroke-dashoffset: -28; } }
+    .bar { transform-box: fill-box; transform-origin: bottom; animation: grow 3.2s ease-in-out infinite; }
+    .b2 { animation-delay: -0.8s; } .b3 { animation-delay: -1.6s; } .b4 { animation-delay: -2.4s; }
+    @keyframes grow { 0%, 100% { transform: scaleY(0.45); } 50% { transform: scaleY(1); } }
+    text { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <g clip-path="url(#c)">
+    <rect width="600" height="315" fill="url(#bg)"/>
+    <g fill="none" stroke="#ffffff" stroke-width="2" opacity="0.28">
+      <rect x="28" y="24" width="372" height="186" rx="4"/>
+      <line x1="214" y1="24" x2="214" y2="210"/>
+      <circle cx="214" cy="117" r="34"/>
+      <rect x="28" y="72" width="46" height="90"/>
+      <rect x="354" y="72" width="46" height="90"/>
+    </g>
+    <g fill="none" stroke="#fde047" stroke-width="2.5" opacity="0.8">
+      <path class="dash" d="M92 150 L214 72 L322 170"/>
+    </g>
+    <g fill="#a50044" stroke="#ffffff" stroke-width="2.5">
+      <circle cx="92" cy="150" r="9"/><circle cx="214" cy="72" r="9"/><circle cx="322" cy="170" r="9"/>
+    </g>
+    <g fill="#004d98" stroke="#ffffff" stroke-width="2.5">
+      <circle cx="150" cy="60" r="9"/><circle cx="270" cy="130" r="9"/>
+    </g>
+    <g class="ball"><circle r="7" fill="#ffffff" stroke="#111" stroke-width="2"/></g>
+    <g fill="#fde047">
+      <rect class="bar" x="438" y="70" width="26" height="140" rx="4"/>
+      <rect class="bar b2" x="474" y="70" width="26" height="140" rx="4" opacity="0.85"/>
+      <rect class="bar b3" x="510" y="70" width="26" height="140" rx="4" opacity="0.7"/>
+      <rect class="bar b4" x="546" y="70" width="26" height="140" rx="4" opacity="0.55"/>
+    </g>
+    <text x="30" y="262" font-size="34" font-weight="700" fill="#ffffff">Legacy FC Scout</text>
+    <text x="30" y="292" font-size="17" fill="#fde047" letter-spacing="3">PRO CLUBS ANALYTICS</text>
+  </g>
+</svg>
