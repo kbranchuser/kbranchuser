@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" width="1200" height="120" preserveAspectRatio="none" role="img" aria-label="Animated wave in blue and garnet">
+  <style>
+    .w1 { animation: slide 14s linear infinite; }
+    .w2 { animation: slide 22s linear infinite reverse; }
+    .w3 { animation: slide 30s linear infinite; }
+    @keyframes slide { from { transform: translateX(0); } to { transform: translateX(-1200px); } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <path class="w3" fill="#1a73e8" opacity="0.35" d="M0 60 C200 20 400 100 600 60 C800 20 1000 100 1200 60 C1400 20 1600 100 1800 60 C2000 20 2200 100 2400 60 V120 H0 Z"/>
+  <path class="w2" fill="#a50044" opacity="0.55" d="M0 72 C150 40 450 104 600 72 C750 40 1050 104 1200 72 C1350 40 1650 104 1800 72 C1950 40 2250 104 2400 72 V120 H0 Z"/>
+  <path class="w1" fill="#004d98" opacity="0.9" d="M0 86 C200 62 400 110 600 86 C800 62 1000 110 1200 86 C1400 62 1600 110 1800 86 C2000 62 2200 110 2400 86 V120 H0 Z"/>
+</svg>
