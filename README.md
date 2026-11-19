@@ -17,14 +17,13 @@
 
 ## ☁️ What I do
 
-I'm a Senior Cloud Engineer at a Google Cloud partner. Companies hand me their cloud problems, and I try to hand back something that runs fine without me.
+I'm a Senior Cloud Engineer at a Premier Google Cloud partner. Companies hand me their cloud problems, and I try to hand back something that runs fine without me.
 
-- 🏗️ **Architecture and migrations.** I work out where everything should live, then move it there without anyone noticing the move.
-- ⚙️ **Infrastructure and automation.** If I've done it by hand twice, the third time is a pipeline.
-- 📊 **Data and ML platforms.** I get data to where it's useful, and models out of the notebook and in front of people.
-- 🤖 **Gemini and AI agents.** I put Gemini Enterprise to work on a company's own data and build agents that hold up after the demo.
+- **Architecture and migrations.** I work out where everything should live while trying to avoid as many headaches as possible
+- **Infrastructure and automation.** I work alongside many of the major CICD and Cloud Providers to strengthen what's in place.
+- **Data and ML platforms.** I get data to where it's useful, and models out of the notebook and in front of people.
+- **Gemini and AI agents.** I put Gemini Enterprise to work on a company's own data and build agents that hold up after the demo.
 
-My favorite kind of system deploys itself, scales when it has to, and costs nothing while everyone is asleep.
 
 ## 🎓 Certifications
 
@@ -49,7 +48,7 @@ My favorite kind of system deploys itself, scales when it has to, and costs noth
   </tr>
 </table>
 
-## ⚽ 🏺 Off the clock
+## Off the clock ⚽
 
 - **Soccer.** FC Barcelona fan. Visca el Barça! 🔵🔴
 - **Archaeology.** It's where I point the cloud skills. The scan below is Etowah Mounds in Georgia, seen through LiDAR with the trees stripped away.
